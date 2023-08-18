@@ -1,2 +1,3 @@
 # programming_languages_list
-A web scraper to scrape Wikipedia for the complete list of Programming Languages.
+
+A complete list of all programming languages based on the Wikipedia info.
