@@ -1,12 +1,19 @@
 [project]
-name = ""
-version = ""
-description = ""
+name = "programming_languages_list"
+version = "0.0.1"
+description = "A complete list of all programming languages based on the Wikipedia info."
 authors = [
     {name = "Sparrow", email = ""},
 ]
-dependencies = []
+dependencies = [
+    "beautifulsoup4>=4.12.2",
+    "requests>=2.31.0",
+    "lxml>=4.9.3",
+]
+[tool.pdm.scripts]
+start = "python3 src/main.py"
+test = "pytest"
+
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
-
